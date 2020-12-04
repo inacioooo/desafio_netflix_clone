@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--owl carosel; plugin JQuery do site https://owlcarousel2.github.io/OwlCarousel2/-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--responsive-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>NETFLIX Clone</title>
+</head>
+<body>
+    <header><!--cabecalho do site-->
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#" >Início</a>
+                <a href="#" >Séries</a>
+                <a href="#" >Filmes</a>
+                <a href="#" >Documentários</a>
+            </nav>
+        </div>
+    </header>    
+
+    <main><!--miolo do site-->
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Walking dead</h3>
+                <p class="descricao">Ambientada em Los Angeles, a série mostra o começo do apocalipse zumbi e a temível 
+                    desintegração da sociedade pelos olhos de uma família disfuncional, que precisa se unir para tentar 
+                    sobreviver ao caos do fim dos tempos.</p>
+                <div class="botoes"><!--toda vez que uma div é criada, ela tem por padrão o "display:block"-->
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMACÕES
+                    </button>
+                </div>
+            </div>            
+        </div>                 
+    </main>
+    
+    <div class="films-carousel">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-film" src="imgs/item.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-film" src="imgs/item_2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-film" src="imgs/item_3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-film" src="imgs/item_4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-film" src="imgs/item_5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-film" src="imgs/item_6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-film" src="imgs/item_7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-film" src="imgs/item_8.jpg" alt="">
+            </div>
+            
+        </div>
+           
+    </div>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script> <!--script para biblioteca na nuvem do font awesome; utilizamos icones-->
+    
+    <!--owl carousel; biblioteca JQuery; ajuda a manipular elementos na tela-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+</html>
+
